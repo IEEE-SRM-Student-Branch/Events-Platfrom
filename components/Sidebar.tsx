@@ -17,12 +17,12 @@ const Sidebar: FunctionComponent = () => {
         <div className="flex items-center">
           <Image
             src="/assets/Home.svg"
-            width={50}
-            height={50}
+            width={60}
+            height={60}
             alt="logo"
-            className="p-4"
+            className="p-4 ml-6"
           />
-          <div className="hover:underline">Home</div>
+          <div className="hover:underline text-xl">Home</div>
         </div>
       </div>
 
@@ -30,12 +30,12 @@ const Sidebar: FunctionComponent = () => {
         <div className="flex items-center -mb-1">
           <Image
             src="/assets/events.svg"
-            width={50}
-            height={50}
+            width={55}
+            height={55}
             alt="logo"
-            className="p-4"
+            className="p-4 ml-7"
           />
-          <div className="hover:underline">Events</div>
+          <div className="hover:underline text-xl">Events</div>
         </div>
       </div>
       </div>
@@ -48,9 +48,9 @@ const Sidebar: FunctionComponent = () => {
               width={50}
               height={50}
               alt="logo"
-              className="p-4"
+              className="p-4 ml-10"
             />
-            <div className="hover:underline">Ongoing Events</div>
+            <div className="hover:underline text-xl">Ongoing Events</div>
           </div>
         </div>
         <div>
@@ -60,9 +60,9 @@ const Sidebar: FunctionComponent = () => {
               width={50}
               height={50}
               alt="logo"
-              className="p-4"
+              className="p-4 ml-10"
             />
-            <div className="hover:underline">Upcoming</div>
+            <div className="hover:underline text-xl">Upcoming</div>
           </div>
         </div>
         <div>
@@ -72,9 +72,9 @@ const Sidebar: FunctionComponent = () => {
               width={50}
               height={50}
               alt="logo"
-              className="p-4"
+              className="p-4 ml-10"
             />
-            <div className="hover:underline">Archive</div>
+            <div className="hover:underline text-xl">Archive</div>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ const Sidebar: FunctionComponent = () => {
 
       <div className="-space-y-2">
       <div>
-        <div className="flex items-center">
+        <div className="flex items-center pt-4">
           <Image
             src="/assets/Vector3.svg"
             width={50}
@@ -91,7 +91,7 @@ const Sidebar: FunctionComponent = () => {
             alt="logo"
             className="p-4"
           />
-          <div className="hover:underline">Your Dashboard</div>
+          <div className="hover:underline text-xl">Your Dashboard</div>
         </div>
       </div>
 
@@ -104,12 +104,12 @@ const Sidebar: FunctionComponent = () => {
             alt="logo"
             className="p-4"
           />
-          <div className="hover:underline">Your Certificates</div>
+          <div className="hover:underline text-xl">Your Certificates</div>
         </div>
       </div>
       </div>
 
-      <div className="pt-24 mx-4 text-xs text-gray-400">
+      <div className="pt-24 mx-4 text-x text-gray-400">
         <div>Made with &lt;3 IEEE <br/>This is for sure not an easter egg.</div>
       </div>
     </div>
