@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.btn-animation::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #34AB68;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+
+  .btn-animation:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+  }
+
+  .box {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.36) 0%, rgba(196, 196, 196, 0.06) 100%);
+    backdrop-filter: blur(15px);
+  }
